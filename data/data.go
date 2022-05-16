@@ -17,12 +17,12 @@ var data = []*entities.User{
 	{ID: 4, Name: "Pepe", Age: 6},
 }
 
-func (do *DataObject) FindUserByName(name string) []*entities.User {
+func (do *DataObject) MultipleUserByName(name string) []*entities.User {
 	return data
 }
 
 // func Use() {
 // 	do := New()
-// 	ids := do.FindUserByName("Pepe")
+// 	ids := do.MultipleUserByName("Pepe")
 // 	fmt.Printf("ids: %v\n", ids)
 // }

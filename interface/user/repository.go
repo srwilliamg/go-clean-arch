@@ -15,7 +15,7 @@ func NewUserInterfaceRepository(db *data.DataObject) usecases.UserRepository {
 }
 
 func (iru *interfaceRepositoryUser) FindUserByName(name string) ([]*entities.User, error) {
-	data := iru.db.FindUserByName(name)
+	data := iru.db.MultipleUserByName(name)
 
 	return data, nil
 }
