@@ -1,4 +1,4 @@
-package controller
+package appcontroller
 
 import useradapter "go-clean-arch/interface/user"
 

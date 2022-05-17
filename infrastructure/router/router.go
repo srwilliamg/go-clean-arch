@@ -1,7 +1,7 @@
-package infrastructure
+package router
 
 import (
-	controller "go-clean-arch/controller"
+	controller "go-clean-arch/app-controller"
 
 	"github.com/labstack/echo/v4"
 )
